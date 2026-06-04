@@ -1,24 +1,48 @@
-# Gardien
+# 🛡️ Gardien
 
-Réfléchir mieux. Décider mieux.
+> Réfléchir mieux. Décider mieux.
 
-Gardien est une IA d'aide à la décision qui aide les utilisateurs à analyser leurs choix, anticiper les risques et explorer plusieurs scénarios avant d'agir.
+Gardien est une IA d'aide à la décision conçue pour aider les utilisateurs à analyser leurs choix, identifier les risques et explorer plusieurs scénarios avant d'agir.
 
 ## Vision
 
-Aider chacun à prendre des décisions plus éclairées.
+Dans un monde où l'information est abondante mais le jugement difficile, Gardien aide chacun à prendre des décisions plus éclairées.
 
 ## Fonctionnalités
 
 - Analyse de décision
-- Simulation de scénarios
-- Détection d'angles morts
+- Score de confiance
+- Simulations futures
+- Détection des risques
 - Avocat du diable
 - Mémoire utilisateur
 
+## Architecture
+
+- Frontend : Next.js
+- Backend : FastAPI
+- Base de données : PostgreSQL
+- Mémoire : Qdrant
+- IA : Modèles open source
+
 ## Roadmap
 
-- [ ] v0.2 Moteur avancé
-- [ ] v0.5 Mémoire
-- [ ] v0.8 Historique
-- [ ] v1.0 Extension navigateur
+### MVP
+- [ ] Moteur de décision
+- [ ] Score de confiance
+- [ ] Simulations futures
+- [ ] Interface web
+
+### v1.0
+- [ ] Comptes utilisateurs
+- [ ] Historique
+- [ ] Mémoire avancée
+- [ ] Extension navigateur
+
+## Philosophie
+
+Gardien conseille.
+
+Gardien n'impose jamais.
+
+L'utilisateur garde toujours le contrôle de ses décisions.
